@@ -11,339 +11,479 @@
     <meta name="keywords" content="SERVICIOS, HIGIENE, SEGURIDAD, GESTION AMBIENTAL, NORMAS ISO, AMBIENTE, SEGURO">
     <!-- Link a CSS -->
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- Link logo -->
+    <link rel="icon" href="../media/nuevoLogo.png">
     <!-- Configuracion de Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
     <header>
+
         <!-- Navegacion -->
         <div class="header__div">
+
             <!-- Logo -->
-            <img class="header__div__logo" src="../media/semServiciosProfesionalesLogo.jpeg" alt="logo de la empresa">
+            <a href="../index.html"><img class="header__div__logo" src="../media/semServiciosProfesionalesLogo.png" alt="logo de la empresa"></a>
+
             <!-- Barra de navegacion -->
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/servicios.html" role="button" aria-expanded="false">Servicios</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../pages/servicios.html">Action</a>Servicios 1</li>
-                        <li><a class="dropdown-item" href="../pages/servicios.html">Another action</a>Servicios 2</li>
-                        <li><a class="dropdown-item" href="../pages/servicios.html">Something else here</a>Servicios3</li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="../pages/servicios.html">Separated link</a></li>
-                    </ul>
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  <a class="nav-link" href="../pages/servicios.html">Servicios</a>
                 </li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+
         </div>
+
     </header>
 
-    <section class="servicio">
-        <!-- Titulo Principal -->
-        <h1>Servicios</h1>
-        <div>
-            <h3>Seguridad Y Salud Ocupacional</h3>
-            <p>La adopción de una gestión de Seguridad y Salud en el Trabajo (SST) tiene como objetivo permitir a una organización
-                proporcionar lugares de trabajo seguros y saludables, prevenir lesiones y deterioro de la salud, relacionados con el
+    <div style="background-color: #F5F5F5">
+    
+        <section class="servicio">
+
+            <div>
+                <h3 class="seguridadOcupacional">SEGURIDAD Y SALUD OCUPACIONAL</h3>
+
+                <p style="text-align: justify;">La adopción de una gestión de Seguridad y Salud en el Trabajo (SST) tiene como objetivo permitir a una organización <b>proporcionar lugares de trabajo seguros y saludables</b>, prevenir lesiones y deterioro de la salud, relacionados con el
                 trabajo y mejorar continuamente su desempeño.
-                Contamos con un grupo de profesionales con incumbencias en la materia a fin de brindar todo el asesoramiento
-                necesario para lograr los objetivos y resultados previstos por la gestión de Seguridad y Salud en el Trabajo (SST).</p>
-        </div>
-        <div>
-            <h5>Asesoramiento Y Gestión</h5>
-            <p>Asesoramos en materia legal vigente respecto a Seguridad y Salud en el Trabajo y Gestionamos todas  las tareas y/o actividades necesarias para asegurar el cumplimiento de los mismos</p>
-        </div>
-        <div>
-            <h5>Mediciones Y Monitoreos</h5>
-            <p>Trabajamos con personal especializado y equipos de
-                última generación para medir contaminantes que
-                pueden encontrarse en los espacios de trabajo.
-                Mediciones de Ruido e Iluminación; Contaminantes en
-                ambientes laborales; Mediciones de Puestas a tierra;
-                Pruebas hidráulicas y de Espesores entre otras.
+                Contamos con un grupo de profesionales con incumbencias en la materia a fin de brindar todo el asesoramiento necesario para lograr los objetivos y resultados previstos por la gestión de Seguridad y Salud en el Trabajo (SST).</p>
+
+            </div>
+
+            <!-- Servicios de Seguridad y Salud Ocupacional -->
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <b>Asesoramiento & Gestión</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Asesoramos en materia legal vigente respecto a Seguridad y Salud en el Trabajo y Gestionamos todas  las tareas y/o actividades necesarias para asegurar el cumplimiento de los mismos.</div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <b>Mediciones & Monitoreos</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Trabajamos con personal especializado y equipos de
+                        última generación para medir contaminantes que
+                        pueden encontrarse en los espacios de trabajo.
+                        Mediciones de Ruido e Iluminación; Contaminantes en
+                        ambientes laborales; Mediciones de Puestas a tierra;
+                        Pruebas hidráulicas y de Espesores entre otras.</div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <b>Investigación de Sinistros</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Informe e Investigación de accidentes, incidentes y enfermedades profesionales. Investigación y análisis de accidentes en la vía pública.</div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Proyectos & Mejoras</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Con una mirada prevencionista y teniendo en cuenta las normativas vigentes y las últimas tecnologías participamos de proyectos que ayuden a contribuir a la salud y seguridad de los trabajadores (Redes de incendio, Estudios de iluminación, etc.).</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Certificación de Instalaciones eléctricas y de gas</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Auditorias de control de las instalaciones. Presentación de informes profesionales. Proyecto de nuevas instalaciones.</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Formación de Personal</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Jornadas de capacitaciones sobre diferentes temáticas, con dos modalidades: Presenciales: capacitaciones teóricas y/o prácticas. A distancia: cursos y capacitaciones teóricas.</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Emergencias</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Elaboración de Plan de Preparación Ante Emergencias, Planes de Evacuación con realización periódica de simulacros. Conformación de brigadas contra incendios y el entrenamiento de brigadistas. Control de los equipos de lucha contra incendios.</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Promoción & Difusión de la Seguridad</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">En el establecimiento mediante carteles, medios electrónicos, normas generales de seguridad, advertencias, señalética, boletines y otros que se consideren apropiados.</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Programa de Higiene & Seguridad</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Como parte del Programa Anual de Prevención de Riesgos, que incluye al Relevamiento General de Riesgos Laborales, la nómina del personal expuesto a Agentes de Riesgo de Enfermedades Profesionales y al análisis y evaluación de riesgos por puesto de trabajo.</div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Certificaciones & Habilitaciones</b>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Certificación de equipos de izaje. Habilitación de Aparatos Sometidos a Presión.</div>
+                    </div>
+                  </div>
+
+
+              </div>
+
+
+                <h3 class="gestionISO">Gestion de Normas ISO</h3>
+
+                <p style="text-align: justify;">Los beneficios de ser una empresa certificada son muchos, satisfacción del cliente, optimización de procesos, gestión de
+                recursos, reducción de riesgos, mejoras en la comunicación interna, control de la producción, incremento de la
+                productividad, entre otros. Somos un grupo de profesionales con experiencia en implementación, seguimiento y
+                auditorias de certificación de Sistemas de Gestión de Seguridad y Salud Ocupacional (ISO 45001), Calidad (ISO 9001) y
+                Medio Ambiente (ISO14001).</p>
+
+            <!-- Servios de Normas ISO -->
+
+
+                <div class="accordion" id="accordionExample">
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <b>Consultoría</b>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Te asesoramos en el diagnóstico, planificación inicial, elaboración y gestión de la documentación necesaria. Acompañamos a la gestión en todas sus faces de auditoría, a fin de garantizar la eficiencia, eficacia y éxito del proceso.</div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <b>Implementación</b>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Nos encargamos de monitorear la correcta ejecución de todo el proceso, a través de una asistencia técnica y un plan de trabajo a medida. Nuestro fin es fomentar el aprendizaje y adopción de mejoras en beneficio de la organización.</div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <b>ISO 9001 | Sistema de gestion de Calidad</b>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">La adopción de un sistema de gestión de calidad es una decisión estratégica para una organización que le puede ayudar a mejorar su desempeño global y proporcional una base sólida para las iniciativas de desarrollo sostenible. Los principio de la gestión de la calidad son: Enfoque al cliente; Liderazgo; Compromiso de las personas; Enfoque a procesos Mejora; Toma de decisiones basadas en la evidencia; Gestión de las relaciones.</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <b>ISO 45001 | Sistema de gestion de la Seguridad y Salud en el Trabajo</b>
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">La adopción de un sistema de gestión de SST tiene como objetivo permitir a una organización proporcionar lugares de trabajo seguros y saludables, prevenir lesiones y deterioro de la salud, relacionados con el trabajo, y mejorar con tinuamente su desempeño de SST.</div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <b>ISO 14001 | Sistema de gestion Ambiental</b>
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">El propósito de esta Norma Internacional es proporcionar a las organizaciones un marco de referencia para proteger el medio ambiente y responder a las condiciones ambientales cambiantes, en equilibrio con las necesidades socioeconómicas.</div>
+                        </div>
+                      </div>
+
+
+                  </div>
+
+
+                <h3 class="gestionAmbiental">Gestión Ambiental</h3>
+
+                <p style="text-align: justify;">El logro del equilibrio entre el medio ambiente, sociedad y la economía, se considera esencial para satisfacer las necesidades del presente sin poner en riesgo la capacidad de las generaciones futuras. Brindamos asesoría técnica y legal en temas de medio ambiente, ofreciendo las herramientas para afrontar tanto los requerimientos legales como las necesidades internas de la organización y del sistema de gestión ambiental así como de responsabilidad social empresarial.
                 </p>
-        </div>
-        <div>
-            <h5>Investigación de Siniestros</h5>
-            <p>Informe e Investigación de accidentes, incidentes y
-                enfermedades profesionales. Investigación y análisis de
-                accidentes en la vía pública.
+
+
+            <!-- Servicios Gestion Ambiental -->
+
+            <div class="accordion" id="accordionExample">
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <b>Sistema de Gestion Ambiental</b>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Se brindan las herramientas necesarias para la implementación efectiva de un sistema de gestion ambiental, específico para cada empresa teniendo en cuenta aspectos económicos, ambientales y socioculturales.</div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <b>Capacitaciones</b>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Capacitar a todos quienes formen parte de la organización, a fin de lograr un correcta gestión ambienta y fortalecer el compromiso de las personas.</div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <b>Gestion de Residuos</b>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Desarrollo de planes de gestión de residuos para pequeñas y grandes organizaciones.</div>
+                  </div>
+                </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <b>Licencia Ambiental de Industrias</b>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Clasificación de nivel de complejidad ambiental para la contratación del seguro ambiental obligatorio.</div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <b>Surgimiento de Gestion</b>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Llevamos a cabo planes de control y seguimiento, a fin de verificar la correcta implementación de los planes de gestión y oportunidades de mejoras.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <b>Aspectos de impactos</b>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Identificación y evaluación de aspectos e impactos ambientales en la organización. Tratamiento de efluentes y emisiones gaseosas</div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <b>Monitoreo Ambiental</b>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Diseño de programas y planes de monitoreo, toma de muestras y segiumiento</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <b>Asesoramiento normativo</b>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Asesoramos sobre la normativa vigente y elaboramos matrices normativas a la medida de su empresa.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <b>Categorización Ambiental</b>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">Trámite para la solicitud de categorización ambiental de Industrias y otras actividades sin normativa específica</div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  </div>
+
+
+              </div>
+
+
+
+            </div>
+            
+
+            <div>
+
+                <h3 class="ingenieria">Ingeniería</h3>
+
+                <p style="text-align: justify;">Desde el área de Ingeniería se desarrollan diferentes tipos de trabajos profesionales; Homologaciones, habilitaciones e
+                Inspecciones de Vehículos; Informes técnicos; Cálculos y certificaciones varias; entre otras. También, a través del diseño y ejecución de proyectos de ingeniería, se busca brindar a las empresas soluciones técnicas, a través de la construcción explícita de ideas o conceptos necesarios.
                 </p>
-        </div>
+
+            </div>
+
+        <!-- Servicios de Ingeniería -->
+
+        <div class="accordion" id="accordionExample">
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <b>Homologación de Vehiculos</b>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Habilitación y modificación de vehículos.
+
+                    Inspección de equipos de izajes (Grúas).
+                    Inspección de equipos de izajes (Auto elevadores, Hidro grúas, Plataformas de elevación).
+                    Inspección de accesorios de izajes (Cables, Eslingas, Ganchos, Grilletes, Guindolas).
+                    Inspección de maquinaria vial (Palas Cargadoras, Retroexcavadoras, Moto niveladoras, Tractores).
+                    Inspección de equipos especiales. Inspección de transportes (Flota liviana, Flota Pesada, Platos de enganches).
+                    Inspección de tanques cisterna. Capacitación de operadores de equiposn.
+                    Ispección de puentes grúas, mayor de 10 metros y/o 5Tn.</div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <b>Diseño y Ejecución de Proyectos</b>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Planificación y ejecución de proyectos de mejora de procesos y en general. Esto Incluye:
+
+                    Determinar y definir qué procesos se pueden mejorar, atendiendo a los problemas detectados y priorizando el orden de importancia de los mismos.
+                    Metodología y herramientas adecuadas para la mejoras de procesos.
+                    Medidas y controles necesarios para asegurar la eficacia y eficiencia de un proceso específico.
+                    Diseño de máquinas, equipos y/o herramientas útiles para un proceso específico.
+                    Ingeniería básica y de detalle.</div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <b>Tareas Varias</b>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Cálculos de refrigeración.
+                    Certificación y habilitación de calderas y aparatos sometidos a presión.
+                    Cálculo y gestión de Instalaciones de gas.
+                    Cálculo y gestiones para conexión en paralelo de SSF.
+                    Cálculo de instalaciones de pararrayos.
+                    Informes e inspección de instalaciones eléctricas y de gas.
+                    Proyecto de nuevas instalaciones eléctricas.
+                    Cálculos de Iluminación.</div>
+              </div>
+            </div>
+
+
+          </div>
+
+
         <div>
-            <h5>Proyectos y Mejoras</h5>
-            <p>Con una mirada prevencionista y teniendo en cuenta las
-                normativas vigentes y las últimas tecnologías
-                participamos de proyectos que ayuden a contribuir a la
-                salud y seguridad de los trabajadores (Redes de
-                incendio, Estudios de iluminación, etc.).
-                </p>
-        </div>
-        <div>
-            <h5>Certificación de Instalaciones eléctricas y de gas</h5>
-            <p>Auditorias de control de las instalaciones. Presentación de
-                informes profesionales. Proyecto de nuevas instalaciones.
-                </p>
-        </div>
-        <div>
-            <h5>Formación de Personal</h5>
-            <p>Jornadas de capacitaciones sobre diferentes temáticas,
-                con dos modalidades: 
-                Presenciales: capacitaciones teóricas y/o prácticas.
-                A distancia: cursos y capacitaciones teóricas.
-            </p>
-        </div>
-        <div>
-            <h5>Emergencias</h5>
-            <p>Elaboración de Plan de Preparación Ante Emergencias,
-                Planes de Evacuación con realización periódica de
-                simulacros. Conformación de brigadas contra incendios y
-                el entrenamiento de brigadistas. Control de los equipos de
-                lucha contra incendios.
-                </p>
-        </div>
-        <div>
-            <h5>Promoción y Difución de la seguridad</h5>
-            <p>En el establecimiento mediante carteles, medios
-                electrónicos, normas generales de seguridad,
-                advertencias, señalética, boletines y otros que se
-                consideren apropiados.
-                </p>
-        </div>
-        <div>
-            <h5>Programa de Higiene y Seguridad</h5>
-            <p>Como parte del Programa Anual de Prevención de
-            Riesgos, que incluye al Relevamiento General de Riesgos
-            Laborales, la nómina del personal expuesto a Agentes de
-            Riesgo de Enfermedades Profesionales y al análisis y
-            evaluación de riesgos por puesto de trabajo.</p>
-        </div>
-        <div>
-            <h5>Certificaciones y Habilitaciones</h5>
-            <p>Certificación de equipos de izaje. Habilitación de Aparatos
-                Sometidos a Presión.</p>
-        </div>
-        <div>
-            <h3>Gestion de normas ISO</h3>
-            <p>Los beneficios de ser una empresa certificada son muchos, satisfacción del cliente, optimización de procesos, gestión de
-            recursos, reducción de riesgos, mejoras en la comunicación interna, control de la producción, incremento de la
-            productividad, entre otros. Somos un grupo de profesionales con experiencia en implementación, seguimiento y
-            auditorias de certificación de Sistemas de Gestión de Seguridad y Salud Ocupacional (ISO 45001), Calidad (ISO 9001) y
-            Medio Ambiente (ISO14001)
-            </p>
-        </div>
-        <div>
-            <h5>Consultoría</h5>
-            <p>Te asesoramos en el diagnóstico, planificación inicial,
-                elaboración y gestión de la documentación necesaria.
-                Acompañamos a la gestión en todas sus faces de
-                auditoría, a fin de garantizar la eficiencia, eficacia y éxito
-                del proceso.</p>
-        </div>
-        <div>
-            <h5>Implementación</h5>
-            <p>Nos encargamos de monitorear la correcta ejecución de
-                todo el proceso, a través de una asistencia técnica y un
-                plan de trabajo a medida. Nuestro fin es fomentar el
-                aprendizaje y adopción de mejoras en beneficio de la
-                organización.
-                </p>
-        </div>
-        <div>
-            <h5>ISO 9001 | Sistema de gestion de Calidad</h5>
-            <p>La adopción de un sistema de gestión de calidad es una decisión
-                estratégica para una organización que le puede ayudar a mejorar
-                su desempeño global y proporcional una base sólida para las
-                iniciativas de desarrollo sostenible.
-                Los principio de la gestión de la calidad son: Enfoque al cliente;
-                Liderazgo; Compromiso de las personas; Enfoque a procesos
-                Mejora; Toma de decisiones basadas en la evidencia; Gestión de
-                las relaciones.</p>
-        </div>
-        <div>
-            <h5>ISO 45001 | Sistema de gestion de la Seguridad y Salud en el Trabajo</h5>
-            <p>La adopción de un sistema de gestión de SST tiene como objetivo
-                permitir a una organización proporcionar lugares de trabajo
-                seguros y saludables, prevenir lesiones y deterioro de la salud,
-                relacionados con el trabajo, y mejorar con tinuamente su
-                desempeño de SST.
-                </p>
-        </div>
-        <div>
-            <h5>ISO 14001 | Sistema de gestion Ambiental</h5>
-            <p>El propósito de esta Norma Internacional es proporcionar a las
-                organizaciones un marco de referencia para proteger el medio
-                ambiente y responder a las condiciones ambientales cambiantes,
-                en equilibrio con las necesidades socioeconómicas.
-                </p>
-        </div>
-        <div>
-            <h3>Gestión Ambiental</h3>
-            <p>El logro del equilibrio entre el medio ambiente, sociedad y la economía, se considera esencial para satisfacer las
-                necesidades del presente sin poner en riesgo la capacidad de las generaciones futuras.
-                Brindamos asesoría técnica y legal en temas de medio ambiente, ofreciendo las herramientas para afrontar tanto los
-                requerimientos legales como las necesidades internas de la organización y del sistema de gestión ambiental así como de
-                responsabilidad social empresarial.
-                </p>
-        </div>
-        <div>
-            <h5>Sistema de Gestion Ambiental</h5>
-            <p>Se brindan las herramientas necesarias para la
-                implementación efectiva de un sistema de
-                gestion ambiental, específico para cada
-                empresa teniendo en cuenta aspectos
-                económicos, ambientales y socioculturales.
-                </p>
-        </div>
-        <div>
-            <h5>Capacitaciones</h5>
-            <p>Capacitar a todos quienes formen parte de la
-                organización, a fin de lograr un correcta
-                gestión ambienta y fortalecer el compromiso
-                de las personas.
-                </p>
-        </div>
-        <div>
-            <h5>Gestión de Residuos</h5>
-            <p>Desarrollo de planes de gestión de residuos
-                para pequeñas y grandes organizaciones.
-                </p>
-        </div>
-        <div>
-            <h5>Estudio de impacto ambiental</h5>
-            <p>Elaboración y presentación de estudios de
-                impacto ambiental (EIA).
-                </p>
-        </div>
-        <div>
-            <h5>Licencia Ambiental de industrias</h5>
-            <p>Clasificación de nivel de complejidad
-                ambiental para la contratación del seguro
-                ambiental obligatorio.
-                </p>
-        </div>
-        <div>
-            <h5>Seguimiento de gestión</h5>
-            <p>Llevamos a cabo planes de control y
-                seguimiento, a fin de verificar la correcta
-                implementación de los planes de gestión y
-                oportunidades de mejoras.
-                </p>
-        </div>
-        <div>
-            <h5>Aspectos de impactos</h5>
-            <p>Identificación y evaluación de aspectos e
-                impactos ambientales en la organización.
-                Tratamiento de efluentes y emisiones
-                gaseosas
-                </p>
-        </div>
-        <div>
-            <h5>Monitoreo ambiental</h5>
-            <p>Diseño de programas y planes de monitoreo,
-                toma de muestras y segiumiento
-                </p>
-        </div>
-        <div>
-            <h5>Asesoramiento normativo</h5>
-            <p>Asesoramos sobre la normativa vigente y
-                elaboramos matrices normativas a la medida
-                de su empresa.
-                </p>
-        </div>
-        <div>
-            <h5>Categorización Ambiental</h5>
-            <p>Trámite para la solicitud de categorización
-                ambiental de Industrias y otras actividades sin
-                normativa específica</p>
-        </div>
-        <div>
-            <h3>Ingeniería</h3>
-            <p>Desde el área de Ingeniería se desarrollan diferentes tipos de trabajos profesionales; Homologaciones, habilitaciones e
-                Inspecciones de Vehículos; Informes técnicos; Cálculos y certificaciones varias; entre otras. También, a través del diseño
-                y ejecución de proyectos de ingeniería, se busca brindar a las empresas soluciones técnicas, a través de la construcción
-                explícita de ideas o conceptos necesarios.
-                </p>
-        </div>
-        <div>
-            <h5>Homologación de Vehiculos</h5>
-            <p>Habilitación y modificación de vehículos.
-            </p>
-            <ul>
-                <li> Inspección de equipos de izajes (Grúas).
-                </li>
-                <li> Inspección de equipos de izajes (Auto elevadores,
-                Hidro grúas, Plataformas de elevación). </li>
-                <li> Inspección de accesorios de izajes (Cables, Eslingas,
-                Ganchos, Grilletes, Guindolas).
-                </li>
-                <li> Inspección de maquinaria vial (Palas Cargadoras,
-                Retroexcavadoras, Moto niveladoras, Tractores).
-                </li>
-                <li> Inspección de equipos especiales. Inspección de
-                transportes (Flota liviana, Flota Pesada, Platos de
-                enganches).
-                </li>
-                <li> Inspección de tanques cisterna. Capacitación de
-                operadores de equiposn.
-                </li>
-                <li> Ispección de puentes grúas, mayor de 10 metros y/o
-                5Tn.
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h5>Diseño y ejecución de proyectos</h5>
-            <p>Planificación y ejecución de proyectos de mejora de
-                procesos y en general. Esto Incluye:</p>
-                <ul>
-                    <li> Determinar y definir qué procesos se pueden
-                        mejorar, atendiendo a los problemas detectados y
-                        priorizando el orden de importancia de los mismos.
-                    </li>
-                    <li> Metodología y herramientas adecuadas para la
-                        mejoras de procesos.
-                    </li>
-                    <li> Medidas y controles necesarios para asegurar la
-                        eficacia y eficiencia de un proceso específico.
-                    </li>
-                    <li> Diseño de máquinas, equipos y/o herramientas útiles
-                        para un proceso específico.
-                    </li>
-                    <li> Ingeniería básica y de detalle.
-                    </li>
-                </ul>
-        </div>
-        <div>
-            <h5>Tareas varias</h5>
-            <ul>
-                <li> Cálculos de refrigeración.
-                </li>
-                <li> Certificación y habilitación de calderas y aparatos
-                    sometidos a presión.
-                </li>
-                <li> Cálculo y gestión de Instalaciones de gas. </li>
-                <li> Cálculo y gestiones para conexión en paralelo de SSF.
-                </li>
-                <li> Cálculo de instalaciones de pararrayos. </li>
-                <li> Informes e inspección de instalaciones eléctricas y de
-                    gas.
-                </li>
-                <li> Proyecto de nuevas instalaciones eléctricas.
-                </li>
-                <li> Cálculos de Iluminación.
-                </li>
-            </ul>
-        </div>
-        <div>
+
+    </section>
+    
+    </div>
+
+
+    </div>
+
             <!-- Footer -->
         <footer class="footer">
             <!-- Redes Sociales -->
@@ -358,6 +498,7 @@
             </ul>
         </footer>
         </div>
-    </section>
+        <!-- Reseteo para Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
