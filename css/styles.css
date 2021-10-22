@@ -70,6 +70,11 @@ body {
   height: 100px;
 }
 
+.indexNosotros{
+  background-color: #c4d0cc;
+  padding: 25px 15px 15px 25px;
+}
+
 
 /* Servicios */
 .servicio{
@@ -152,10 +157,45 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.seccionNosotros{
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.parrafoNosotros{
+  padding-top: 25px;
+}
+
+.imagenNosotros{
+  width: 50%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
 .misionNosotros{
   display: flex;
   justify-content: space-between;
   padding: 45px;
+}
+
+.card-title{
+  background: #c4d0cc;
+  background: radial-gradient(circle, #c4d0cc 0%, #3f95fa 0%);
+  padding-left: 5px;
+  padding-right: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-img-top{
+  border-radius: 5px;
 }
 
 .licenciadosPerfil {
