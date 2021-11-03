@@ -9,7 +9,9 @@
     <!-- Meta -->
     <meta name="description" content="Contactanos para ofrecerte una amplia gama de servicios profesionales">
     <!-- Link a CSS -->
-    <link rel="stylesheet" href="../css/styles.css">  
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <!-- Link animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
     <!-- Link logo -->
     <link rel="icon" href="../media/nuevoLogo.png"> 
     <!-- Configuracion de Boostrap -->
@@ -46,10 +48,14 @@
         </div>
     </header>
 
-    <div style="background-color: #F5F5F5">
+    <divstyle="background-color: #F5F5F5">
 
-        <!-- Subtitulo -->
-        <h2 style="text-align: center;"><b>CONTACTO</b></h2>
+        <div class="animate__animated animate__zoomIn">
+
+            <!-- Subtitulo -->
+            <h2 class="contacto">CONTACTO</h2>
+
+
         <!-- Formulario -->
         <main>
             <section>
@@ -57,14 +63,15 @@
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Nombre y Apellido</label>
                         <input type="name" class="form-control" id="exampleInputPassword1">
+                        <div id="emailHelp" class="form-text">No compartiremos con nadie sus datos</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">No compartiremos con nadie tu mail</div>
+                        <div id="emailHelp" class="form-text">No compartiremos con nadie su email</div>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué servicio necesitas?</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué servicio necesita?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary" style="margin-bottom: 50px;">Enviar Solicitud</button>
@@ -72,18 +79,24 @@
             </section>
         </main>
 
-    </div>
+        </div>
 
+
+    </divstyle=>
+
+    <!-- Footer -->
     <footer class="footer">
-        <!-- Redes Sociales -->
-        <ul>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-        </ul>
-        <ul>
-            <li><a href="mailto:semserviciosprofesionales@gmail.com">semserviciosprofesionales@gmail.com</a></li>
-            <li><a href="tel:+549342-5131449">+549342-5131449</a></li>
-        </ul>
+
+        <!-- Imagen -->
+        <img src="../media/nuevoLogo.png" alt="" width="70px"></img>
+        <p class="parrafoFooter">SEM Servicios Profesionales</p>
+
+        <!-- Redes y Contacto -->
+        <div class="redesFooter">
+          <a href="https://www.linkedin.com/in/sem-servicios-profesionales-a59494210/"><img src="../media/linkedin (1).png" alt="" width="35px"></a>
+          <a href="mailto:semserviciosprofesionales@gmail.com"><img src="../media/email.ico" alt="" width="45px"></a>
+        </div>
+
     </footer>
 
     <!-- Reseteo para Boostrap -->
